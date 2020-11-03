@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Your &nbsp;Todo &nbsp;List</h1>
+    </div>
+    <div class="centered">
+      <form class="input-box">
+        <input type="text" class="task-input" />
+        <button type="submit" class="plus-icon">
+          <i class="fa fa-plus-square" aria-hidden="true"></i>
+        </button>
+      </form>
+      <br />
+      <div class="clear">
+        <button type="button" class="clear-button">Clear Task List</button>
+      </div>
+    </div>
+    <div class="task-display">
+      <ul class="task-list" type="none">
+        <!-- <div class="newTodo">
+          <li></li>
+          <button></button>
+          <button></button>
+        </div> -->
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+

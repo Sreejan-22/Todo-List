@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #010098;
+  background-image: radial-gradient(deepskyblue, darkblue);
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  min-height: 20vh;
+  font-weight: 400;
+  /* font-family: "Cabin", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Kanit", sans-serif; */
+  font-family: "Acme", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-plus-square {
+  cursor: pointer;
+}
+
+.task-input,
+.plus-icon {
+  padding: 0.1rem;
+  font-size: 1.5rem;
+  border: none;
+  background: white;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+}
+
+.task-input {
+  width: 400px;
+}
+
+.plus-icon {
+  padding: 4px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clear {
+  min-height: 20vh;
+}
+
+.clear-button {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: medium;
+  width: 180px;
+  height: 40px;
+}
+
+.task-display {
+  display: flex;
+  justify-content: center;
+}
+
+.taskStyle {
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+
+.taskName,
+.remove,
+.done {
+  border: none;
+  background: white;
+  font-size: 1.5rem;
+}
+
+.newTodo {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  background: white;
+  border: 2px solid black;
+}
+
+.taskName {
+  flex: 1;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: normal;
+  color: black;
+}
+
+.strikeThrough {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.remove,
+.done {
+  border: 2px solid white;
+  padding: 0px;
+}
+
+.fa-trash,
+.fa-check-square {
+  cursor: pointer;
+}
+.done {
+  color: rgb(11, 241, 11);
+}
+
+.remove {
+  color: rgb(255, 102, 0);
+}
